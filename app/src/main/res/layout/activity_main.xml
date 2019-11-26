@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/outdoor"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/img1"
+                android:text="Welcome to Lawyer Recommender"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/title"
+                android:paddingTop="10dp"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:text="We Have You in Mind"
+                android:paddingTop="20sp"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bg_lawyer"
+                app:civ_border_width="0dp"
+                android:paddingTop="50dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/slogan"
+                android:layout_below="@+id/title"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+                android:text="At Lawyer referral we help you connect with the best lawyers around the country"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="0dp"
+                android:layout_below="@id/slogan"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="280dp"
+                    android:layout_gravity="center"
+                    android:text="LOGIN"
+                    android:id="@+id/login"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/btn"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="or"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content" />
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="280dp"
+                    android:layout_gravity="center"
+                    android:text="REGISTER"
+                    android:id="@+id/register"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/btn"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

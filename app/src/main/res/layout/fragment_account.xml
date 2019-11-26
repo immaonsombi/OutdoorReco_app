@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EDED"
+    tools:context="AccountFragment"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/coverIv"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimaryDark">
+
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="100dp">
+
+                <ImageView
+                    android:id="@+id/avatarIv"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/colorPrimary"
+                    android:padding="5dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#ffff">
+
+
+                    <TextView
+                        android:id="@+id/nameTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="25sp"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/emailTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"/>
+
+
+                    <TextView
+                        android:id="@+id/phoneTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"/>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <!-- &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         >
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="190dp"
+             android:background="@color/colorPrimaryDark">
+
+
+         </RelativeLayout>
+
+     </RelativeLayout>
+    -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="15dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_add_edit_white"
+        />
+    <!--android:background="@color/colorPrimaryDark"
+    android:layout_width="40dp"
+    android:layout_height="45dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/ic_add_edit_white"--> />
+
+</RelativeLayout><!--
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AccountFragment">
+
+    &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Account Fragment"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+</FrameLayout>-->

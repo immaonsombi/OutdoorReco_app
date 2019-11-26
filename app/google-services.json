@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "27506163353",
+    "firebase_url": "https://smarttour-70d57.firebaseio.com",
+    "project_id": "smarttour-70d57",
+    "storage_bucket": "smarttour-70d57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27506163353:android:e17ce2fa72761a7a534208",
+        "android_client_info": {
+          "package_name": "com.example.android.finalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27506163353-mp7bo4r8d76le191mbfp1hnsqtp4ltk0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.finalapp",
+            "certificate_hash": "190be09513e18608b109849ac4ed796f2b0e9a5c"
+          }
+        },
+        {
+          "client_id": "27506163353-bo4b3lssvqgc58r3ucpsok3p2afi6lal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6ORxkOCArdoOmlLn1I3KlxSqdue_XA5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27506163353-bo4b3lssvqgc58r3ucpsok3p2afi6lal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27506163353:android:edccd6241b4e75ba534208",
+        "android_client_info": {
+          "package_name": "com.example.android.mysmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27506163353-0371duro2ldb398v0rvtmqopcg8uqnmg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.mysmart",
+            "certificate_hash": "190be09513e18608b109849ac4ed796f2b0e9a5c"
+          }
+        },
+        {
+          "client_id": "27506163353-bo4b3lssvqgc58r3ucpsok3p2afi6lal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6ORxkOCArdoOmlLn1I3KlxSqdue_XA5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27506163353-bo4b3lssvqgc58r3ucpsok3p2afi6lal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27506163353:android:040d0b18803624dc534208",
+        "android_client_info": {
+          "package_name": "com.example.android.smarttour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27506163353-7om47ddgric3j9b2lbo4s3v4lgre8t8t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.smarttour",
+            "certificate_hash": "190be09513e18608b109849ac4ed796f2b0e9a5c"
+          }
+        },
+        {
+          "client_id": "27506163353-bo4b3lssvqgc58r3ucpsok3p2afi6lal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6ORxkOCArdoOmlLn1I3KlxSqdue_XA5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27506163353-bo4b3lssvqgc58r3ucpsok3p2afi6lal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27506163353:android:e8e9366ea3198e76534208",
+        "android_client_info": {
+          "package_name": "com.example.outdoorreco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27506163353-sba72lanf0ai299v05pad62vp5gug8ud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.outdoorreco",
+            "certificate_hash": "190be09513e18608b109849ac4ed796f2b0e9a5c"
+          }
+        },
+        {
+          "client_id": "27506163353-bo4b3lssvqgc58r3ucpsok3p2afi6lal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6ORxkOCArdoOmlLn1I3KlxSqdue_XA5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27506163353-bo4b3lssvqgc58r3ucpsok3p2afi6lal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
